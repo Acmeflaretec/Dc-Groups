@@ -84,10 +84,10 @@ h6,
 
 /*** Navbar ***/
 .navbar-light .navbar-nav .nav-link {
-    position: relative;
+    position: relative; 
     margin-left: 25px;
     padding: 35px 0;
-    color: var(--light) !important;
+    color: var(--dark) !important;
     outline: none;
     transition: .5s;
 }
@@ -103,7 +103,8 @@ h6,
 }
 
 .navbar-light .navbar-brand h1 {
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
+    color: var(--primary) !important;
 }
 
 .navbar-light .navbar-brand img {
@@ -144,7 +145,7 @@ h6,
 
 @media (min-width: 992px) {
     .navbar-light {
-        position: absolute;
+        /* position: absolute; */
         width: 100%;
         top: 0;
         left: 0;
@@ -187,17 +188,18 @@ h6,
 /*** Hero Header ***/
 .hero-header {
     background:
-        url(../img/bg-dot.png),
-        url(../img/bg-dot.png),
-        url(../img/bg-round.png),
-        url(../img/bg-tree.png),
-        url(../img/bg-bottom-hero.png);
+        url(../img/banner);
+        /* url(../img/bg-dot.png),
+        url(../img/bg-dot.png), */
+        /* url(../img/bg-round.png), */
+        /* url(../img/bg-tree.png), */
+        /* url(../img/bg-bottom-hero.png); */
     background-position:
         10px 10px,
         bottom 190px right 10px,
         left 55% top -1px,
-        left 45% bottom -1px,
-        center bottom -1px;
+        left 45% bottom -1px
+        /* center bottom -1px; */
     background-repeat: no-repeat;
 }
 
